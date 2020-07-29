@@ -1,0 +1,101 @@
+.container {
+    margin: 5% 5%;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.image {
+    width: 100% !important;
+}
+
+.image img {
+    width: 100% !important;
+}
+
+.content>div{
+    margin-left: 15% !important;
+}
+
+.content h2{
+    text-align: left;
+}
+
+.content h4{
+    font-size: 20px;
+    color: rgb(104, 104, 104);
+}
+
+.content button {
+    padding: 5px 10px;
+    border: none;
+    background-color: white;
+}
+
+.content input {
+    width: 60px;
+    padding: 5px 10px;
+    text-align: center;
+    border: none;
+}
+
+.content input::-webkit-outer-spin-button,
+.content input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.content input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.minus {
+    border-top: 1px solid black !important;
+    border-bottom: 1px solid black !important;
+    border-left: 1px solid black !important;
+}
+
+.content input {
+    border-top: 1px solid black !important;
+    border-bottom: 1px solid black !important;
+}
+
+.plus {
+    border-top: 1px solid black !important;
+    border-bottom: 1px solid black !important;
+    border-right: 1px solid black !important;
+}
+
+.minus:checked {
+    border: none !important;
+}
+
+.content span {
+    font-size: 18px;
+    color: rgb(104, 104, 104);
+}
+
+.addtocart {
+    width: 50%;
+    text-align: center;
+    background-color: black;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
+.addtocart:hover {
+    cursor: pointer;
+    background-color: #c4c4c4;
+}
+
+.addtocart a{
+    width: 100%;
+    color: white;
+    padding: 10px;
+}
+
+.addtocart:hover a{
+    color: black;
+}

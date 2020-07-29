@@ -1,0 +1,33 @@
+.item {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 12px;
+    padding-bottom: 25px;
+    padding-top: 3px;
+    margin: 10px;
+}
+
+.current {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 800px)
+{
+    .menu {
+        margin-right: 100px;
+        width: 30%;
+        margin-top: 60px;
+    }
+
+    .item{
+        margin-top: 0px;
+    }
+
+    .current {
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+}
